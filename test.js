@@ -21,7 +21,7 @@ function checkSNAS() {
 
 function checkSTCP() {
 
-    if ( typeof xx == 'undefind' ) {
+    if ( typeof xx == 'undefined' ) {
 
         x = {};
     }
