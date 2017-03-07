@@ -64,7 +64,11 @@ function checkSNAS1() {
 
 function checkSTCP1() {
 
-    if ( typeof xx == 'undefind' ) {
+    if ( 
+        typeof 
+        xx 
+        == 
+        'undefind' ) {
 
         x = {};
     }
