@@ -1,6 +1,6 @@
 function checkSNEE() {
-    var x = undefined + 0;
-    if ( x === NaN) {
+    var x = 0;
+    if ( x === 1) {
         x = 0;
     }
 }
