@@ -6,7 +6,7 @@ function checkSNEE() {
 }
 
 function checkIAL() {
-    var length = 0;
+    var length;
     length = 2;
     array = new Array(length) ;
 }
