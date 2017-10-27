@@ -42,9 +42,10 @@ function checkIPD() {
 
 function checkSNEE1() {
 
-    var x = undefined + 0;
-    if ( x == NaN) {
-        x = 0;
+    var x = 0;
+    var y = 1;
+    if ( x === y) {
+        x = 1;
     }
 }
 
