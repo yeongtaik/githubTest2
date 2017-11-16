@@ -2,6 +2,7 @@ function checkSNEE() {
     var x = 0;
     if ( x = 1) {
         x = 0;
+        y = 0;
     }
 }
 
