@@ -1,7 +1,7 @@
 // This will show examples related with the Common Weakness Enumeration (CWE).
 
 function CWE_480() { // BAD_BITWISE_OPERATOR
-    var obj = null;
+    var obj = {};
     if (obj && obj.prop) {
         console.log(obj.prop);
     }
