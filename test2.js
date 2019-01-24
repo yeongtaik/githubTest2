@@ -67,3 +67,12 @@ function mtrim(para)
 	    else  i++;
     return para;
 }
+
+function mtrim(para)
+{
+    for ( i = 0; i < para.length;)
+	    if ( para.substring(i,i+1) == ' ' || para.substring(i,i+1) == unescape('%%0A') || para.substring(i,i+1) == unescape('%%0D') )
+	        para = para.substring(0, i) + para.substring(i+1, para.length);
+	    else  i++;
+    return para;
+}
