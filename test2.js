@@ -2,9 +2,16 @@
 
 function CWE_480() { // BAD_BITWISE_OPERATOR
     var obj;
-    if (obj & obj.prop) {
+
         console.log(obj.prop);
-    }
+    
+}
+
+function CWE_480() { // BAD_BITWISE_OPERATOR
+    var obj;
+
+        console.log(obj.prop);
+    
 }
 
 function CWE_480_481() { // BAD_ASSIGN_IN_CONDITION
